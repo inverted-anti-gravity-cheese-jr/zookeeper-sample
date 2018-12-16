@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="js/lib/vue.js"></script>
     </head>
     <body>
         
@@ -11,18 +11,6 @@
             <button v-on:click="reverseMessage">Reverse Message</button>
         </div>
         
-        <script>
-			var app = new Vue({
-				el: '#app',
-				data: {
-					message: 'Hello worldw!'
-				},
-				methods: {
-					reverseMessage: function () {
-						this.message = this.message.split('').reverse().join('')
-					}
-				}
-			});
-        </script>
+        <script src="js/app.js"></script>
     </body>
 </html>

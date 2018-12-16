@@ -4,3 +4,5 @@ bin/
 build/
 gradle/
 .gradle/
+src/main/resources/js/lib/*.js
+src/main/resources/css/lib/*.css
