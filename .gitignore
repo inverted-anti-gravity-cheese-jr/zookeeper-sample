@@ -6,3 +6,14 @@ gradle/
 .gradle/
 src/main/resources/js/lib/*.js
 src/main/resources/css/lib/*.css
+zookeeper/
+logs/
+dist/
+public/
+node_modules/
+.cache/
+
+/ui/.cache/
+/ui/dist/
+/ui/public/
+/ui/node_modules/

@@ -1,0 +1,7 @@
+server:
+  servlet.contextPath: /api
+logging:
+  level:
+    org.springframework.web: INFO
+    pl.stan: INFO
+  file: logs/zk-app.log
